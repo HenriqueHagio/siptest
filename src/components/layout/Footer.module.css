@@ -1,0 +1,28 @@
+.footer{
+    background-color: #fff;
+    position:absolute;
+    top: 95%;
+    left: 36px;
+}
+
+
+.logout{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.logout li{
+    margin: 0 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #52575c;
+}
+
+.logout li:hover{
+    background: linear-gradient(90deg, #3374AB 0%, #5AB1F3 59.9%, #6BD8FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
